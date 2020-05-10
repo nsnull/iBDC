@@ -55,7 +55,6 @@
 		8C0770E30C3E147F0077AA03 /* XGZ3.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8C0770B50C3E147F0077AA03 /* XGZ3.dat */; };
 		8C0770E40C3E147F0077AA03 /* XGZ4.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8C0770B60C3E147F0077AA03 /* XGZ4.dat */; };
 		8C09EA0E0C35CDA10038B00C /* NSString(hsv).m in Sources */ = {isa = PBXBuildFile; fileRef = 8C09EA0D0C35CDA10038B00C /* NSString(hsv).m */; };
-		8C3BB7440C44DABF002B5025 /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8C3BB7430C44DABF002B5025 /* readme.rtf */; };
 		8C3BB7460C44DACD002B5025 /* gpl in Resources */ = {isa = PBXBuildFile; fileRef = 8C3BB7450C44DACD002B5025 /* gpl */; };
 		8C4803A30C420963002088D0 /* red_ballon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8C4803A20C420963002088D0 /* red_ballon.icns */; };
 		8C79CF6D0C40EB8A006E0767 /* ieltscore.dat in Resources */ = {isa = PBXBuildFile; fileRef = 8C79CF6C0C40EB8A006E0767 /* ieltscore.dat */; };
@@ -75,6 +74,7 @@
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E1C66FBB2467E18000457B52 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1C66FBA2467E18000457B52 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,7 +134,6 @@
 		8C0770B60C3E147F0077AA03 /* XGZ4.dat */ = {isa = PBXFileReference; fileEncoding = 18446744071562067993; lastKnownFileType = text; path = XGZ4.dat; sourceTree = "<group>"; };
 		8C09EA0C0C35CDA10038B00C /* NSString(hsv).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString(hsv).h"; sourceTree = "<group>"; };
 		8C09EA0D0C35CDA10038B00C /* NSString(hsv).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString(hsv).m"; sourceTree = "<group>"; };
-		8C3BB7430C44DABF002B5025 /* readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
 		8C3BB7450C44DACD002B5025 /* gpl */ = {isa = PBXFileReference; fileEncoding = 18446744071562067993; lastKnownFileType = text; path = gpl; sourceTree = "<group>"; };
 		8C4803A20C420963002088D0 /* red_ballon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = red_ballon.icns; sourceTree = "<group>"; };
 		8C79CF170C404B61006E0767 /* iBDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +155,7 @@
 		8CEE78700C3C53C200B84390 /* Prefs_General.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Prefs_General.tiff; sourceTree = "<group>"; };
 		8CEE7A390C3CE20500B84390 /* Chinese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Chinese; path = Chinese.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1C66FBA2467E18000457B52 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		E1FDF0E42461859300D33608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,8 +234,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1C66FBA2467E18000457B52 /* readme.txt */,
 				8C3BB7450C44DACD002B5025 /* gpl */,
-				8C3BB7430C44DABF002B5025 /* readme.rtf */,
 				8CEE6AEF0C387EED00B84390 /* grouplist.dat */,
 				8C723A920C3FB07C00EADD24 /* images */,
 				8C0770880C3E147D0077AA03 /* bdclib */,
@@ -443,8 +443,8 @@
 				8C79CF730C40EBB4006E0767 /* ieltspaper.dat in Resources */,
 				8C79CF740C40EBB4006E0767 /* ieltstravel.dat in Resources */,
 				8C79CF750C40EBB4006E0767 /* ieltswork.dat in Resources */,
+				E1C66FBB2467E18000457B52 /* readme.txt in Resources */,
 				8C4803A30C420963002088D0 /* red_ballon.icns in Resources */,
-				8C3BB7440C44DABF002B5025 /* readme.rtf in Resources */,
 				8C3BB7460C44DACD002B5025 /* gpl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
