@@ -1,6 +1,6 @@
 iBDC 我就爱背单词
 https://github.com/nsnull/iBDC
-（原址 http://sourceforge.net/projects/ibdc）
+（搬迁自原址 http://sourceforge.net/projects/ibdc）
 
 简介
 iBDC 是一个苹果Mac OS X 下的Cocoa 程序，软件免费， 代码开放( GPL License )
