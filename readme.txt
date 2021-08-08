@@ -37,7 +37,7 @@ http://popup.sourceforge.net/
 ———————---------------
 Date: 2021/08/08
 
-1. 重新编译,  支持M1 Mac.
+1. 重新编译,  native 支持 M1 Mac.
 
 
 版本 1.02 说明: 
