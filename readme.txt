@@ -19,6 +19,7 @@ https://sourceforge.net/projects/ibdc/
 苹果Mac OS X v10.3 及之后的版本下会直接调用Mac OS X 自带的 BOMArchiveHelper 直接解包， 10.3 之前的版本需要使用 StuffIt 等工具解包。
 
 系统要求：
+v1.03 - Mac OS X 10.9 及以上, 支持 Intel 和 M1 Mac
 v1.02 - Mac OS X 10.7 Lion 至最新的10.15 Catalina.
 v1.01 - Mac OS X 10.3 
 
@@ -32,6 +33,11 @@ v1.01 - Mac OS X 10.3
 四个按钮的测试模式受到GNUStep 开源项目Popup 的启发：
 http://popup.sourceforge.net/
 
+版本 1.03 说明:
+———————---------------
+Date: 2021/08/08
+
+1. 重新编译,  native 支持 M1 Mac.
 
 
 版本 1.02 说明: 
