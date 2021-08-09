@@ -71,9 +71,9 @@
 		8CEE77B10C3C475A00B84390 /* wrong.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE77B00C3C475A00B84390 /* wrong.tiff */; };
 		8CEE78710C3C53C200B84390 /* Prefs_Camera.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE786F0C3C53C200B84390 /* Prefs_Camera.tiff */; };
 		8CEE78720C3C53C200B84390 /* Prefs_General.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE78700C3C53C200B84390 /* Prefs_General.tiff */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E15DB23F26C01F920033C380 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15DB23D26C01F920033C380 /* MainMenu.xib */; };
 		E1C66FBB2467E18000457B52 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1C66FBA2467E18000457B52 /* readme.txt */; };
 /* End PBXBuildFile section */
 
@@ -152,11 +152,9 @@
 		8CEE786F0C3C53C200B84390 /* Prefs_Camera.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Prefs_Camera.tiff; sourceTree = "<group>"; };
 		8CEE78700C3C53C200B84390 /* Prefs_General.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Prefs_General.tiff; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E15DB23E26C01F920033C380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E16049B226BDFAAD00E63E75 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E16049B326BDFAB000E63E75 /* zh */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = zh; path = zh.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E16049B426BDFAB000E63E75 /* zh */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh; path = zh.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		E1C66FBA2467E18000457B52 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		E1FDF0E42461859300D33608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,8 +239,8 @@
 				8C723A920C3FB07C00EADD24 /* images */,
 				8C0770880C3E147D0077AA03 /* bdclib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				E15DB23D26C01F920033C380 /* MainMenu.xib */,
 				8C0770190C3E02210077AA03 /* InfoPlist.strings */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -384,7 +382,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8C07701A0C3E02210077AA03 /* InfoPlist.strings in Resources */,
 				8CEE6AF00C387EED00B84390 /* grouplist.dat in Resources */,
 				8CEE705A0C39E36400B84390 /* DrawerToggleToolbarImage.tiff in Resources */,
@@ -411,6 +408,7 @@
 				8C0770C60C3E147F0077AA03 /* GMAT.dat in Resources */,
 				8C0770C70C3E147F0077AA03 /* Graduate_Phrase.dat in Resources */,
 				8C0770C80C3E147F0077AA03 /* Graduate_Word.dat in Resources */,
+				E15DB23F26C01F920033C380 /* MainMenu.xib in Resources */,
 				8C0770C90C3E147F0077AA03 /* GRE1.dat in Resources */,
 				8C0770CA0C3E147F0077AA03 /* GRE2.dat in Resources */,
 				8C0770CB0C3E147F0077AA03 /* GRE3.dat in Resources */,
@@ -467,22 +465,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1FDF0E42461859300D33608 /* Base */,
-				E16049B426BDFAB000E63E75 /* zh */,
-			);
-			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
 		8C0770190C3E02210077AA03 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E16049B226BDFAAD00E63E75 /* en */,
-				E16049B326BDFAB000E63E75 /* zh */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E15DB23D26C01F920033C380 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15DB23E26C01F920033C380 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
